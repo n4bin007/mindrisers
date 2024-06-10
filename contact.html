@@ -9,7 +9,75 @@
 
   <body>
     I dont use any social medias but I'm available at Viber and Whatsapp. Connect with me through the phone number
-    <u>9818022916</u>.
+    <u>9818022916</u>.<br>
+    <p>Or you can simply fill up the form available below and I'll contact you soon.</p>
+    <fieldset>
+      <legend>Enter your details here</legend>
+      <form action="mailto:nabin.zess@gmail.com">
+        <p><label for="username">Username</label>
+          <input type="text" id="username" name="username" placeholder="Your name here">
+        </p>
+
+        <p><label for="phone">Phone Number</label>
+          <input type="integer" id="phone" name="phone" placeholder="Your number here" maxlength="10">
+        </p>
+
+        <p><label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your valid email">
+        </p>
+
+        <p>
+        <h3>Select Your Gender</h3>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        </p>
+        <p>
+        <h3>Select Your Hobbies</h3>
+        <label for="sing">Singing</label>
+        <input type="checkbox" id="sing" name="hobbies" value="sing">
+
+        <label for="dance">Dancing</label>
+        <input type="checkbox" id="dance" name="hobbies" value="dance">
+        <label for="travelling">Travelling</label>
+        <input type="checkbox" id="travelling" name="hobbies" value="travelling">
+        <label for="sing">Playing Football</label>
+        <input type="checkbox" id="football" name="hobbies" value="football">
+        </p>
+
+        <p>
+        <h3>Select Your Country</h3>
+        <select name="country-new" id="">
+          <optgroup label="Asia">
+            <option value="Nepal">Nepal</option>
+            <option value="India">India</option>
+            <option value="China">China</option>
+          </optgroup>
+          <optgroup label="Africa">
+            <option value="Sudan">Sudan</option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="Somalia">Somalia</option>
+          </optgroup>
+          <optgroup label="Europe">
+            <option value="Germany">Germany</option>
+            <option value="Russia">Russia</option>
+            <option value="Ukraine">Ukraine</option>
+          </optgroup>
+        </select>
+        </p>
+
+        <p>
+          <textarea name="message" id="message" cols="40" rows="10"></textarea>
+        </p>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+
+    </fieldset>
+
   </body>
 
 </html>
